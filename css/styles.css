@@ -594,7 +594,14 @@ img {
   text-transform: uppercase;
 }
 
+.sign-form-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .sign-form {
+  display: flex;
+  justify-content: space-between;
   margin-left: 93px;
 }
 
@@ -974,6 +981,7 @@ img {
   background-image: url('../images/Vector.svg');
   background-position: center;
   background-color: var(--accent-color);
+  background-repeat: no-repeat;
 }
 .modal-form-term:focus + .modal-form-check-desc::before {
   border-color: var(--accent-color);
