@@ -595,7 +595,7 @@ img {
   text-transform: uppercase;
 }
 
-.sign-field {
+.sign-wrapper {
   display: flex;
   margin-top: 20px;
 }

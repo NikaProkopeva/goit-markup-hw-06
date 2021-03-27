@@ -420,18 +420,21 @@
 
         <form class="sign-form" autocomplete="off">
             <b class="sign-call">Подпишитесь на рассылку</b>
+            <div class="sign-wrapper">
             <label class="sign-field">
-                <input type="e-mail" name="user-email" placeholder="E-mail" class="sign-input">
-                
+                <input type="email" name="user-email" placeholder="E-mail" class="sign-input">
+                </label>
+            <label class="sign-field">
                 <button type="submit" class="sign-btn">Подписаться
-                    <svg class="sign-icon" width="24px" heght="24px">
+                    <svg class="sign-icon" width="24px" height="24px">
                         <use href="./images/sprite.svg#icon-send"></use>
                     </svg>
                     </button>
-                
             </label>
+            
+            </div>
         </form>
-        
+
     </div>
     </footer>
 
@@ -467,7 +470,7 @@
 
                 <label class="modal-form-field"> Почта
                     <span class="modal-form-input-wrapper">
-                    <input type="e-mail" name="user-email" class="modal-form-input" required>
+                    <input type="email" name="user-email" class="modal-form-input" required>
                     
                     <svg class="modal-form-icon" width="18" height="18">
                                 <use href="./images/sprite.svg#icon-email-black"> </use>
@@ -482,7 +485,7 @@
                 <input type="checkbox" id="user-term" name="user-term" class="modal-form-term visually-hidden">
             
                 <label for="user-term" class="modal-form-check-desc">
-                    Соглашаюсь с рассылкой и принимаю&nbsp <a href="" class="modal-form-link"> Условия договора
+                    Соглашаюсь с рассылкой и принимаю&nbsp;<a href="" class="modal-form-link">Условия договора
                 </a>
                 
                 </label>
